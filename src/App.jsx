@@ -8,10 +8,12 @@ import xIcon from "./assets/icons/x.svg"
 import instagramIcon from "./assets/icons/instagram.svg"
 import githubIcon from "./assets/icons/github.svg"
 
+import Hero from "./components/Hero";
 
 export default function App() {
     return (
         <div>
+            {/* Header */}
             <header class="p-2 text-xl flex flex-col fixed z-10 bg-[rgb(82,157,242)] w-full backdrop-blur-sm">
                 <div class="w-full md:w-8/12 mx-auto flex items-center justify-between gap-3">
                     <div class="flex items-center gap-3 flex-1">
@@ -22,9 +24,15 @@ export default function App() {
                         <div class="p-1 flex items-center gap-3 bg-white hover:bg-gray-200 duration-500 outline outline-2 flex-1">
                             <img src={pfp} alt="pfp" class="w-8 h-8 object-cover" />
 
-                            <h1 class="font-semibold text-black">
-                                Luqman
-                            </h1>
+                            <div class="flex gap-2 items-center">
+                                <h1 class="font-semibold text-black">
+                                    Luqman
+                                </h1>
+
+                                <h1 class="text-base text-[rgb(25,25,25)]">
+                                    portfolio
+                                </h1>
+                            </div>
                         </div>
                     </div>
 
@@ -46,7 +54,7 @@ export default function App() {
 
             {/* Content */}
             <div class="pt-16 p-2 lg:w-8/12 items-center mx-auto space-y-4 text-sm lg:text-base">
-                <h1>Hello</h1>
+                <Hero/>
             </div>
         </div>
     )
