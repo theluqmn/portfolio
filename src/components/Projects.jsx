@@ -1,109 +1,19 @@
+import pfp from "../assets/pfp.jpg"
+
 export default function Projects() {
     return (
         <div class="space-y-3">
             <h1 class="text-3xl font-semibold">
                 Projects
             </h1>
-            
 
-            <div class="flex overflow-x-auto scrollbar-hide space-x-4 pb-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                 <Frame>
-                    <h1 class="text-black">Hello</h1>
+                    <div class="grid grid-cols-10 gap-3">
+                        <img src={pfp} class="col-span-5"/>
+                        <p>Hello</p>
+                    </div>
                 </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-                <Frame>
-                    <h1 class="text-black">Hello</h1>
-                </Frame>
-
             </div>
         </div>
     )
