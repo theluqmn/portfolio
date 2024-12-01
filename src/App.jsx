@@ -10,6 +10,7 @@ import githubIcon from "./assets/icons/github.svg"
 
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Projects from "./components/Projects";
 
 export default function App() {
     return (
@@ -57,6 +58,7 @@ export default function App() {
             <div class="pt-16 p-2 md:p-1 md:pt-16 lg:w-8/12 items-center mx-auto space-y-3 text-sm lg:text-base">
                 <Hero/>
 
+                {/* Banner for blog */}
                 <div class="p-2 bg-white flex flex-row justify-between items-center">
                     <h1 class="text-black text-base lg:text-xl">
                         Posts on various topics, including my personal thoughts
@@ -74,6 +76,7 @@ export default function App() {
                 </div>
 
                 <About/>
+                <Projects/>
             </div>
         </div>
     )

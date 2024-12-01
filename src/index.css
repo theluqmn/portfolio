@@ -17,3 +17,7 @@ h2 {
 p {
     color: rgb(200,200,200)
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
