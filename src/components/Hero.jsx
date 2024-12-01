@@ -6,7 +6,7 @@ export default function Hero() {
         <div className="relative">
             <picture>
                 <source media="(max-width: 768px)" srcSet={backgroundMobile} />
-                <img src={background} class="w-full h-full object-cover outline md:object-cover object-[25%]"></img>
+                <img src={background} class="w-full h-full object-cover"/>
             </picture>
             <div className="absolute inset-0 flex">
                 <div class="p-4">
