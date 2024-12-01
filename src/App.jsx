@@ -14,7 +14,7 @@ export default function App() {
     return (
         <div>
             {/* Header */}
-            <header class="p-2 text-xl flex flex-col fixed z-10 bg-[rgb(82,157,242)] w-full backdrop-blur-sm">
+            <header class="p-2 text-xl flex flex-col fixed z-10 bg-[url('./assets/background-header.jpg')] bg-cover bg-center w-full backdrop-blur-sm">
                 <div class="w-full md:w-8/12 mx-auto flex items-center justify-between gap-3">
                     <div class="flex items-center gap-3 flex-1">
                         <button class="p-2 bg-white outline outline-2">
@@ -53,7 +53,7 @@ export default function App() {
             </header>
 
             {/* Content */}
-            <div class="pt-16 p-2 lg:w-8/12 items-center mx-auto space-y-4 text-sm lg:text-base">
+            <div class="pt-16 p-2 md:p-1 md:pt-16 lg:w-8/12 items-center mx-auto space-y-4 text-sm lg:text-base">
                 <Hero/>
             </div>
         </div>
