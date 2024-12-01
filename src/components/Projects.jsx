@@ -8,12 +8,7 @@ export default function Projects() {
             </h1>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <Frame>
-                    <div class="grid grid-cols-10 gap-3">
-                        <img src={pfp} class="col-span-5"/>
-                        <p>Hello</p>
-                    </div>
-                </Frame>
+                <Frame></Frame>
             </div>
         </div>
     )
