@@ -20,7 +20,7 @@ export default function Projects() {
                     <a href="https://github.com/theluqmn/portfolio" target="_blank">
                         <img src={portfolioWebsite} alt="pfp" class="w-full object-cover" />
 
-                        <h1 class="text-xl text-black font-semibold flex items-center gap-1">
+                        <h1 class="text-base lg:text-xl text-black flex items-center gap-1">
                             Portfolio Website <img src={openIcon} class="w-4 h-4" />
                         </h1>
                     </a>
