@@ -13,6 +13,8 @@ export default function Projects() {
                 A few of my projects. View more on my <a href="https://github.com/theluqmn?tab=repositories" target="_blank" class="text-white hover:underline">Github</a>.
             </p>
 
+            <hr className="border-t-2 my-4 border-[rgb(25,25,25)]" />
+
             <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
                 <Frame>
                     <a href="https://github.com/theluqmn/portfolio" target="_blank">
