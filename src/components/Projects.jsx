@@ -1,4 +1,6 @@
-import pfp from "../assets/pfp.jpg"
+import openIcon from "../assets/icons/open.svg"
+
+import portfolioWebsite from "../assets/projects/porfolio-website.png"
 
 export default function Projects() {
     return (
@@ -7,8 +9,20 @@ export default function Projects() {
                 Projects
             </h1>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <Frame></Frame>
+            <p>
+                A few of my projects. View more on my <a href="https://github.com/theluqmn?tab=repositories" target="_blank" class="text-white hover:underline">Github</a>.
+            </p>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                <Frame>
+                    <a href="https://github.com/theluqmn/portfolio" target="_blank">
+                        <img src={portfolioWebsite} alt="pfp" class="w-full object-cover" />
+
+                        <h1 class="text-xl text-black font-semibold flex items-center gap-1">
+                            Portfolio Website <img src={openIcon} class="w-4 h-4" />
+                        </h1>
+                    </a>
+                </Frame>
             </div>
         </div>
     )
