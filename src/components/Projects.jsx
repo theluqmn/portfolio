@@ -25,6 +25,14 @@ export default function Projects() {
                         </h1>
                     </a>
                 </Frame>
+
+                <Frame>
+                    <a href="https://github.com/theluqmn/ellison" target="_blank">
+                        <h1 class="text-base lg:text-xl text-black flex items-center gap-1">
+                            Ellison <img src={openIcon} class="w-4 h-4" />
+                        </h1>
+                    </a>
+                </Frame>
             </div>
         </div>
     )
