@@ -4,7 +4,7 @@ import portfolioWebsite from "../assets/projects/porfolio-website.png"
 
 export default function Projects() {
     return (
-        <div class="space-y-3">
+        <div class="pb-32 space-y-3">
             <h1 class="text-3xl font-semibold">
                 Projects
             </h1>
@@ -22,14 +22,6 @@ export default function Projects() {
 
                         <h1 class="text-base lg:text-xl text-black flex items-center gap-1">
                             Portfolio Website <img src={openIcon} class="w-4 h-4" />
-                        </h1>
-                    </a>
-                </Frame>
-
-                <Frame>
-                    <a href="https://github.com/theluqmn/ellison" target="_blank">
-                        <h1 class="text-base lg:text-xl text-black flex items-center gap-1">
-                            Ellison <img src={openIcon} class="w-4 h-4" />
                         </h1>
                     </a>
                 </Frame>
