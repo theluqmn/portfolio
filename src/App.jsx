@@ -82,6 +82,16 @@ export default function App() {
                 <Interests/>
                 <Contact/>
             </div>
+
+            <footer class="flex items-center gap-3 p-2 md:p-1 md:pt-16 lg:w-8/12 mx-auto space-y-3 text-sm lg:text-base">
+                <p class="text-sm text-white">
+                    Designed and developed by <a href="https://x.com/theluqmn" target="_blank" class="text-[rgb(166,232,238)]">
+                        Luqman
+                    </a>. The source code for this website is available  on <a href="https://github.com/theluqmn/portfolio" target="_blank" class="text-[rgb(166,232,238)]">
+                        GitHub
+                    </a>. <b class="font-semibold">This website may undergo drastic changes without notice because I work on it when bored!</b>
+                </p>
+            </footer>
         </div>
     )
 }

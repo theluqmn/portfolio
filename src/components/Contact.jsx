@@ -3,7 +3,7 @@ import instagramIcon from "../assets/icons/instagram.svg"
 
 export default function Contact() {
     return (
-        <div class="space-y-3">
+        <div class="space-y-3 pb-32">
             <h1 class="text-3xl font-semibold">
                 Contact
             </h1>
@@ -44,7 +44,7 @@ export default function Contact() {
 
 function Frame(props) {
     return (
-        <div class="p-1 bg-white hover:bg-[rgb(220,220,220)] duration-500">
+        <div class="p-1 bg-[rgb(80,217,229)] hover:brightness-75 duration-500">
             {props.children}
         </div>
     )
