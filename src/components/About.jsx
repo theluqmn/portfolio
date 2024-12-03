@@ -1,6 +1,5 @@
 import KualaLumpur from "../assets/kuala-lumpur.jpg"
 import Books from "../assets/books.jpg"
-import pfp from "../assets/pfp.jpg"
 
 import ImageFrame from "./ImageFrame"
 
