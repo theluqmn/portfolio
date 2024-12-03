@@ -18,7 +18,7 @@ export default function Projects() {
             <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
                 <Frame>
                     <a href="https://github.com/theluqmn/portfolio" target="_blank">
-                        <img src={portfolioWebsite} alt="pfp" class="w-full object-cover" />
+                        <img src={portfolioWebsite} alt="pfp" class="w-full object-cover hover:brightness-75 duration-500" />
 
                         <h1 class="text-base lg:text-xl text-black flex items-center gap-1">
                             Portfolio Website <img src={openIcon} class="w-4 h-4" />
