@@ -11,6 +11,7 @@ import githubIcon from "./assets/icons/github.svg"
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Interests from "./components/Interests";
 import Contact from "./components/Contact";
 
 export default function App() {
@@ -78,6 +79,7 @@ export default function App() {
 
                 <About/>
                 <Projects/>
+                <Interests/>
                 <Contact/>
             </div>
         </div>
